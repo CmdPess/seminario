@@ -2,6 +2,10 @@
  * Mobirise v4 theme (https://mobirise.com/)
  * Copyright 2017 Mobirise
  */
+.cta{
+
+}
+
 section {
   background-color: #eeeeee;
 }
@@ -328,7 +332,7 @@ figure[mbr-media-size] {
 }
 
 /*! Buttons */
-.btn {
+/* .btn {
   font-weight: 500;
   border-width: 2px;
   font-style: normal;
@@ -343,7 +347,8 @@ figure[mbr-media-size] {
   -webkit-align-items: center;
   -webkit-justify-content: center;
   display: -webkit-inline-flex;
-}
+} */
+ 
 
 .btn-sm {
   font-weight: 500;

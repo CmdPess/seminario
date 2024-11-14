@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
+  
+  
   <link rel="preload"
     href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
     as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -39,6 +41,7 @@
     }
     .btn {
       border-radius: 50px;;
+      text-align: left;
     }
 
 
@@ -51,6 +54,22 @@
     transition: all .5s ease;
     }
 
+
+        .pdf-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .pdf-item a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .pdf-item a:hover {
+            text-decoration: underline;
+        }
+        .btn-success {
+          background-color: rgb(0, 255, 30) ; /* Sobrescreve o verde do Bootstrap */
+         }
   </style>
 
 </head>
@@ -91,6 +110,9 @@
               INÍCIO</a>
           </li>
           <li class="nav-item"><a class="nav-link link text-secondary display-4"
+            href="index.html#content4-R">RESULTADOS
+          </a></li>
+          <li class="nav-item"><a class="nav-link link text-secondary display-4"
               href="index.html#content4-f">APRESENTAÇÃO</a></li>
           <li class="nav-item"><a class="nav-link link text-secondary display-4" href="index.html#content4-n">
               PROGRAMA</a></li>
@@ -117,7 +139,7 @@
       </div>
     </figure>
   </section>
-
+<!--
   <div class="container mb-5" style="font-family: 'Roboto', sans-serif; margin-top: -10px;">
     <div class="row align-center">
       <div class="col-12">
@@ -147,11 +169,71 @@
       </div>
     </div>
   </div>
+-->
+<section class="mbr-section content4 cid-sMohsjn7i4" id="content4-R">
+  <div class="container">
+   
 
+      <!-- Seção de Resultados -->
+       <!-- Seção de Abertura -->
+       <div class="media-container-row mb-5">
+        <div class="title col-12 col-md-8 text-center">
+          <h2 class="align-center pb-3 mbr-fonts-style display-2">RESULTADOS</h2>
+              <a href="assets/pdfs/Sessão de Abertura - TGen AGE .pdf" target="_blank" class="btn btn-primary" style="font-family: 'Roboto', sans-serif;">📜 Sessão de Abertura - TGEN AGE</a>
+        </div>  
+      </div>
+      
+      <div class="row">
+        <!-- Primeiro Momento -->
+        <div class="col-lg-6">
+            <div class="moment p-3 rounded">
+                <h2 class="mbr-text col-12 mbr-fonts-style display-4 col-md-8">Painel 1</h2>
+                <ul class="pdf-list mbr-section-subtitle mbr-light mbr-fonts-style display-5 mb-4  ">
+                    <li class="pdf-item mb-2">
+                      <a href="assets/pdfs/Painel I/Palestra I - Serviço Militar no Exército.pptx" target="_blank" download class="btn btn-primary btn-block">📄  Palestra I – Serviço Militar no Exército até ao século XX</a>
+                    </li>
+                    <li class="pdf-item mb-2">
+                        <a href="assets/pdfs/Painel I/Palestra II - SWE Army presentation 2.0.pptx " target="_blank" class="btn btn-primary btn-block">📄 Palestra II – Sweden’s New Model Army</a>
+                    </li>
+                    <li class="pdf-item mb-2">
+                        <a href="assets/pdfs/Painel I/Palestra III - SEDES_MGen Vieira Borges.ppt" target="_blank" class="btn btn-primary btn-block">📄 Palestra III – Uma visão sobre o futuro do Serviço Militar
+                          em Portugal</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <!-- Segundo Momento -->
+        <div class="col-lg-6">
+            <div class=" p-3  rounded">
+                <h2 class="mbr-text col-12 mbr-fonts-style display-4 col-md-8">Painel 2</h2>
+                 <ul class="pdf-list mbr-section-subtitle mbr-light mbr-fonts-style display-5 mb-4">
+                    <li class="pdf-item mb-2">
+                        <a href="assets/pdfs/Painel II/Palestra I - Liderança.pptx" target="_blank" class="btn btn-primary btn-block">📄 Palestra I – Principais desafios à liderança e comunicação
+                          - da geração Millennials à Alpha</a>
+                    </li>
+                    <li class="pdf-item mb-2">
+                        <a href="assets/pdfs/Painel II/Palestra II - QP Praças Marinha.pptx" target="_blank" class="btn btn-primary btn-block">📄 Palestra II – Quadro Permanente de Praças na Marinha</a>
+                    </li>
+                    <li class="pdf-item mb-2">
+                        <a href="assets/pdfs/Painel II/Palestra III - Contratos longa duração ESP.ppt" target="_blank" class="btn btn-primary btn-block">📄 Palestra III – Experiência com contratos de larga duração</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+</section>
   <section class="mbr-section content4 cid-sMohsjn7i4" id="content4-f">
     <div class="container">
       <div class="media-container-row">
         <div class="title col-12 col-md-8">
+          <br>
+          <br>
           <h2 class="align-center pb-3 mbr-fonts-style display-2">APRESENTAÇÃO</h2>
           <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Serviço Militar Passado,
             Presente e Futuro</h3>
@@ -720,6 +802,10 @@
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
 
   <div id="scrollToTop" class="scrollToTop mbr-arrow-up">

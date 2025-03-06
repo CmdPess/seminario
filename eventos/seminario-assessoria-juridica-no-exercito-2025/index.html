@@ -2,11 +2,11 @@
 <html>
 
 <head>
-<!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Y1BBHT95T"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-7Y1BBHT95T');
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
-  
-  
+
+
   <link rel="preload"
     href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
     as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -43,13 +43,55 @@
   <link rel="stylesheet" href="assets/theme/css/timeline.css">
 
   <style>
+    .text-secondary {
+      color: #167e50 !important;
+    }
+
+    .btn-primary,
+    .btn-primary:active {
+      background-color: #167e50 !important;
+      border-color: #167e50 !important;
+      color: #ffffff !important;
+    }
+
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary.focus,
+    .btn-primary.active {
+      color: #ffffff !important;
+      background-color: #040404 !important;
+      border-color: #040404 !important;
+    }
+
+    @media (max-width: 767px) {
+      .btn {
+        font-size: .7rem !important;
+      }
+
+      .btn-md {
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+    }
+
+    .fundo-e-sombra-verde {
+      background-color: #167e50;
+      background-color: #d7eee4;
+    }
+
+    .cid-sMb4xz39zC button.navbar-toggler .hamburger span {
+      background-color: #167e50 !important;
+    }
+
     .user_image img {
       border-radius: 50%;
       vertical-align: middle;
       height: 50px
     }
+
     .btn {
-      border-radius: 15px;;
+      border-radius: 15px;
+      ;
       text-align: left;
     }
 
@@ -57,28 +99,32 @@
     a img:hover {
       filter: brightness(90%);
       -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+      transition: all .5s ease;
     }
 
 
-        .pdf-list {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-        .pdf-item a {
-            text-decoration: none;
-            color: #007bff;
-        }
-        .pdf-item a:hover {
-            text-decoration: underline;
-        }
-        .btn-success {
-          background-color: rgb(0, 255, 30) ; /* Sobrescreve o verde do Bootstrap */
-         }
+    .pdf-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .pdf-item a {
+      text-decoration: none;
+      color: #007bff;
+    }
+
+    .pdf-item a:hover {
+      text-decoration: underline;
+    }
+
+    .btn-success {
+      background-color: rgb(0, 255, 30);
+      /* Sobrescreve o verde do Bootstrap */
+    }
   </style>
 
 </head>
@@ -118,22 +164,23 @@
             <a class="nav-link link text-secondary display-4" href="#top">
               INÍCIO</a>
           </li>
-          <li class="nav-item"><a class="nav-link link text-secondary display-4"
-            href="index.html#content4-R">CONCLUSÕES
-          
-          </a></li>
+
           <li class="nav-item"><a class="nav-link link text-secondary display-4"
               href="index.html#content4-f">APRESENTAÇÃO</a></li>
-          <li class="nav-item"><a class="nav-link link text-secondary display-4" href="index.html#content4-n">
+          <li class="nav-item"><a class="nav-link link text-secondary display-4" href="index.html#programa">
               PROGRAMA</a></li>
+          <!-- <li class="nav-item"><a class="nav-link link text-secondary display-4"
+              href="index.html#transmissao">TRANSMISSÃO</a></li>-->
           <li class="nav-item"><a class="nav-link link text-secondary display-4" href="index.html#testimonials4-40">
               ORADORES</a></li>
           <li class="nav-item"><a class="nav-link link text-secondary display-4"
               href="index.html#testimonials4-41">MODERADORES</a></li>
-          <!-- <li class="nav-item">
+          <!-- <li class="nav-item"><a class="nav-link link text-secondary display-4"
+            href="index.html#content4-R">CONCLUSÕES</a></li> -->
+        <li class="nav-item">
             <a class="nav-link link text-secondary display-4" href="index.html#contacts3-2z">
               CONTACTOS</a>
-          </li> -->
+          </li>
         </ul>
 
       </div>
@@ -149,80 +196,16 @@
       </div>
     </figure>
   </section>
-<!-- 
-  <div class="container mb-5" style="font-family: 'Roboto', sans-serif; margin-top: -10px;">
-    <div class="row align-center">
-      <div class="col-12">
-        <a href="https://zoom.us/j/93280386498?pwd=aZLYYFUWuG2uDmbvWgUCbb4JBmKyrO.1">
-          <img src="assets/images/qrcodes/zoom_link.png" width="150">
-          <br>
-          <a class="btn btn-md btn-primary" href="https://zoom.us/j/93280386498?pwd=aZLYYFUWuG2uDmbvWgUCbb4JBmKyrO.1" role="button">Zoom Link</a>
-        </a>
-      </div>
-    </div>
-  
-    <div class="row align-center">
-      <div class="col-sm-6" >
-        <a href="https://www.menti.com/al5x751jowin">
-          <img src="assets/images/qrcodes/qa_painel1.png" width="150">
-          <br>
-          <a class="btn btn-md btn-primary" href="https://www.menti.com/al5x751jowin" role="button">QA - Painel 1</a>
-      </a>
-      </div>
-      <div class="col-sm-6">
-        <a href="https://www.menti.com/alx822t32x7m">
-          <img src="assets/images/qrcodes/qa_painel2.png" width="150">
-          <br>
-          <a class="btn btn-md btn-primary" href="https://www.menti.com/alx822t32x7m" role="button">QA - Painel 2</a>
-        
-        </a>
-      </div>
-    </div>
-  </div> -->
-
-  <!-- <div class="container mb-5" style="font-family: 'Roboto', sans-serif; margin-top: -10px;">
-    <div class="row align-center">
-      <div class="col-12">
-        <h2 class="align-center pb-3 mbr-fonts-style display-2" style="color:  #167e50;">CONCLUSÕES DO SEMINÁRIO</h2>
-      </div>
-      <div class="col-12">
-          <a href="assets/pdfs/pdf/SessaodeAberturaTGenAGE.pdf"  target="_blank" class="btn btn-primary"  role="button">📜 Sessão de Abertura</a>
-      </div>
-    </div>
-    <br>
-    <div class="row align-center">
-      <div class="col-lg-6 mt-3 mb-3" >
-        <div class="row"><h2 class="col-12 mbr-fonts-style display-4">Painel 1</h2></div>
-        <a href="assets/pdfs/Painel I/Palestra I - Serviço Militar no Exército.pdf" target="_blank" class="btn btn-primary btn-block">📄 Serviço Militar no Exército até ao século XX</a>
-        <a href="assets/pdfs/Painel I/Palestra II - SWE Army presentation 2.0.pdf" target="_blank" class="btn btn-primary btn-block">📄 Sweden’s New Model Army</a>
-        <a href="assets/pdfs/Painel I/Palestra III - SEDES_MGen Vieira Borges.pdf" target="_blank" class="btn btn-primary btn-block">📄 Uma visão sobre o futuro do Serviço Militar em Portugal</a>
-      </div>
-      <div class="col-lg-6 mt-3 mb-3">
-        <div class="row"><h2 class="col-12 mbr-fonts-style display-4">Painel 2</h2></div>
-        <a href="assets/pdfs/Painel II/Palestra I - Liderança.pdf" target="_blank" class="btn btn-primary btn-block">📄 Principais desafios à liderança e comunicação</a>
-        <a href="assets/pdfs/Painel II/Palestra II - QP Praças Marinha.pdf" target="_blank" class="btn btn-primary btn-block">📄 Quadro Permanente de Praças na Marinha</a>
-        <a href="assets/pdfs/Painel II/Palestra III - Contratos longa duração ESP.pdf" target="_blank" class="btn btn-primary btn-block">📄 Experiência com contratos de larga duração</a>
-      </div>
-    </div>
-    <br>
-    <div class="row align-center">
-      <div class="col-12">
-          <a href="assets/pdfs/pdf/Conclusoes_do_Seminario.pdf"  target="_blank" class="btn btn-primary"  role="button">📜 Conclusões</a>
-      </div>
-    </div>
-  </div> -->
 
 
-  <section class="mbr-section content4" id="content4-f">
+
+  <section class="mbr-section content4 cid-sMyx2cmF8V" id="content4-f">
     <div class="container">
       <div class="media-container-row">
         <div class="title col-12 col-md-8">
+          <h2 class="align-center pb-3 mbr-fonts-style display-2" style="color:  #167e50">APRESENTAÇÃO</h2>
+          <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">A Assessoria Jurídica no Exército Português- Relevância e Desafios</h3>
           <br>
-          <br>
-          <h2 class="align-center pb-3 mbr-fonts-style display-2" style="color:  #167e50;">APRESENTAÇÃO</h2>
-          <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Serviço Militar Passado,
-            Presente e Futuro</h3>
-            <br>
         </div>
       </div>
     </div>
@@ -230,324 +213,218 @@
     <div class="container">
       <div class="media-container-row">
         <div class="mbr-text col-12 mbr-fonts-style display-4 col-md-8">
-          <p>Este evento, visa promover a reflexão acerca do serviço militar numa perspetiva abrangente, de cariz
-            nacional e internacional.
+          <p>O Comando do Pessoal do Exército organiza, no dia 11 de março de 2025, no Quartel de Santo Ovídio, Porto, o
+          Seminário “A Assessoria Jurídica no Exército Português: Relevância e Desafios”. Este evento constitui uma
+          oportunidade única para o debate sobre os desafios e oportunidades do Direito Militar, reunindo especialistas
+          nacionais e internacionais num espaço de excelência para a troca de experiências e a construção de soluções
           </p>
-          <p> O público-alvo deste Seminário compreende, não apenas as entidades militares e civis com intervenção no
-            desenvolvimento das práticas, das políticas e do planeamento associado à gestão de recursos humanos nas
-            Forças Armadas Portuguesas, bem como, as entidades académicas que desenvolvem atividades de docência ou
-            investigação neste âmbito, e os atuais e futuros Comandantes, Diretores e Chefes das diferentes Unidades,
-            Estabelecimentos e Órgãos do Exército, cujo exercício da sua sóbria e esclarecida liderança, contribui
-            diariamente e de forma determinante para o cumprimento da missão do Exército e das Forças Armadas.
+          <p>Com a participação de representantes de outros países, como Espanha e Inglaterra, bem como de outros ramos das
+          Forças Armadas, este Seminário permitirá a identificação e partilha de boas práticas com potencial para serem
+          adaptadas à realidade do Exército Português. O evento destina-se a militares e civis que atuam diretamente no
+          âmbito da assessoria jurídica, promovendo um fórum de discussão de elevado nível técnico e institucional.
           </p>
-          <br>
+          <p>Num contexto operacional cada vez mais exigente, destaca-se a crescente relevância do Legal Advisor em
+          Operações Militares, papel essencial para a condução eficaz e legalmente sustentada das missões. Neste
+          sentido, o Seminário visa contribuir para o fortalecimento da assessoria jurídica no Exército, potenciando
+          sinergias e promovendo uma visão integrada dos desafios que se colocam à assessoria jurídica em ambiente
+          militar.
+          </p>
+         <br>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="mbr-section content4 cid-sMyx2cmF8V" id="content4-n">
+  <!-- <section  class="mbr-section content4 cid-sMyx2cmF8V" id="content4-n"> -->
+  <section class="mbr-section content4 pt-5" id="programa">
     <div class="container">
       <div class="media-container-row">
         <div class="title col-12 col-md-8">
-          <h2 class="align-center pb-3 mbr-fonts-style display-2">
+          <h2 class="align-center pb-3 mbr-fonts-style display-2" style="color: #167e50;">
             PROGRAMA</h2>
         </div>
       </div>
     </div>
   </section>
 
-  <section style="background: white; padding: 10px;">
-    <div class="media-container-row ">
+  <!-- <section style="background: white; padding: 10px;" ></section> -->
+  <section class="mbr-section content4 pt-2 pb-5">
+    <div class="container">
+      <div class="media-container-row ">
         <!-- Days -->
         <div class="row">
-            <div class="col">
-                <ul class="list-timeline list-timeline-primary">
-                    <!-- Initial Notes -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm">
-                            <span class="text-inverse op-8"><strong>09:15 </strong></span><strong>- Notas iniciais da organização </strong>
-                        </p>
-                        <p class="my-0 flex-fw text-xs text-dark op-8"><em>(Tenente-Coronel Marco Silva)</em></p>
-                    </li>
-                    <!-- Opening Session -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw  text-sm">
-                            <span class="text-inverse op-8"><strong>09:30</strong></span> - <strong>Sessão de abertura</strong>
-                        </p>
-                        <p class="my-0 flex-fw text-xs text-dark op-8"><em>(Tenente-General Boga Ribeiro)</em></p>
-                    </li>
-                    <!-- Panel I -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column ">
-                        <p class="my-0 text-dark flex-fw text-sm fundo-e-sombra-verde">
-                            <span class="text-inverse op-8"><strong>09:45</strong></span> - <strong>PAINEL I – Uma Perspectiva sobre a Evolução do Serviço Militar</strong>
-                        </p>
-                        <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><em>Moderador: Tenente-General Rui Ferreira</em></p>
-                    </li>
-                    <!-- Talk 1 -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm ">
-                            <span class="text-inverse op-8"><strong>10:00</strong></span> - <strong>Palestra I – Serviço Militar no Exército até ao século XX</strong>
-                        </p>
-                        <p class="my-0 flex-fw  text-xs text-dark op-8"><em>(Tenente-Coronel Carlos Afonso)</em></p>
-                    </li>
-                    <!-- Talk 2 -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm ">
-                            <span class="text-inverse op-8"><strong>10:30</strong></span> - <strong>Palestra II – Sweden’s New Model Army</strong>
-                        </p>
-                        <p class="my-0 flex-fw  text-xs text-dark op-8"><em>(Lieutenant Colonel Niklas Thornesjö)</em></p>
-                    </li>
-                    <!-- Talk 3 -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm ">
-                            <span class="text-inverse op-8"><strong>11:00</strong></span> - <strong>Palestra III – Uma visão sobre o futuro do Serviço Militar <br>em Portugal</strong>
-                        </p>
-                        <p class="my-0 flex-fw  text-xs text-dark op-8"><em>(Major-General Vieira Borges)</em></p>
-                    </li>
-                    <!-- Coffee Break -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm ">
-                            <span class="text-inverse op-8"><strong>11:30</strong></span> - <strong>Intervalo – Coffee Break</strong>
-                        </p>
-                    </li>
-                    <!-- Debate Panel I -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm ">
-                            <span class="text-inverse op-8"><strong>11:45</strong></span> - <strong>Período de debate – Painel I</strong>
-                        </p>
-                    </li>
-                    <!-- Lunch Break -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm ">
-                            <span class="text-inverse op-8"><strong>12:45</strong></span> - <strong>Almoço</strong>
-                        </p>
-                    </li>
-                    <!-- Panel II -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm fundo-e-sombra-verde ">
-                            <span class="text-inverse op-8 "><strong>14:30</strong></span> - <strong>PAINEL II – A Retenção nas Forças Armadas</strong>
-                        </p>
-                        <p class="my-0 flex-fw  text-xs text-dark op-8 fundo-e-sombra-verde"><em>Moderador: Major-General Fonseca Rijo</em></p>
-                    </li>
-                    <!-- Talk 1 (Panel II) -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm ">
-                            <span class="text-inverse op-8"><strong>14:45</strong></span> - <strong>Palestra I – Principais desafios à liderança e comunicação <br>- da geração Millennials à Alpha</strong>
-                        </p>
-                        <p class="my-0 flex-fw  text-xs text-dark op-8"><em>(Professor Doutor Manuel Salvador Araújo)</em></p>
-                    </li>
-                    <!-- Talk 2 (Panel II) -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm ">
-                            <span class="text-inverse op-8"><strong>15:15</strong></span> - <strong>Palestra II – Quadro Permanente de Praças na Marinha</strong>
-                        </p>
-                        <p class="my-0 flex-fw  text-xs text-dark op-8"><em>(Contra-almirante Luis Proença Mendes)</em></p>
-                    </li>
-                    <!-- Talk 3 (Panel II) -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm ">
-                            <span class="text-inverse op-8"><strong>15:45</strong></span> - <strong>Palestra III – Experiência com contratos de larga duração</strong>
-                        </p>
-                        <p class="my-0 flex-fw  text-xs text-dark op-8"><em>(Tenente-General Antonio Jesús Cabrerizo)</em></p>
-                    </li>
-                    <!-- Coffee Station Break -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm ">
-                            <span class="text-inverse op-8"><strong>16:15</strong></span> - <strong>Intervalo – Coffee Station</strong>
-                        </p>
-                    </li>
-                    <!-- Debate Panel II -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm ">
-                            <span class="text-inverse op-8"><strong>16:30</strong></span> - <strong>Período de debate – Painel II</strong>
-                        </p>
-                    </li>
-                    <!-- Closing Session -->
-                    <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
-                        <p class="my-0 text-dark flex-fw text-sm ">
-                            <span class="text-inverse op-8"><strong>17:15</strong></span> - <strong>Sessão de encerramento</strong>
-                        </p>
-                        <p class="my-0 flex-fw  text-xs text-dark op-8"><em>(Tenente-General Boga Ribeiro)</em></p>
-                    </li>
-                </ul>
-            </div>
+          <div class="col">
+            <ul class="list-timeline list-timeline-primary">
+              <!-- Initial Notes -->
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                <p class="my-0 text-dark flex-fw text-sm">
+                  <span class="text-inverse op-8"><strong>09:30 </strong></span><strong>- Sessão de Abertura </strong>
+                <p class="my-0 flex-fw text-xs text-dark op-8 ">Tenente-General Boga Ribeiro, Ajudante-General do
+                  Exército</p>
+                </p>
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                <p class="my-0 text-dark flex-fw text-sm">
+                  <span class="text-inverse op-8"><strong>09:45 </strong></span><strong>- Keynote Speaker </strong>
+                <p class="my-0 flex-fw text-xs text-dark op-8 ">Professor Catedrático José Fernandes Fontes Castelo
+                  Branco, da Academia Militar</p>
+                </p>
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column ">
+                <p class="my-0 text-dark flex-fw text-sm fundo-e-sombra-verde">
+                  <span class="text-inverse op-8"><strong>10:00</strong></span> - <strong>PAINEL I – O papel do Legal
+                    Advisor em Operações Militares</strong>
+                </p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde">Moderado pelo Coronel Tirocinado
+                  António Coelho dos Santos, Subdiretor da Direção de Aquisições</p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><strong>10:10</strong> Perspetiva
+                  Espanhola (TBA) : Comandante Auditor CJM D. Daniel Rey Moral, Ejercito de Tierra </p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><strong>10:30</strong> Perspetiva
+                  Inglesa (TBA) : Major-General Richard Allen, Director of British Army Legal Services </p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><strong>10:45</strong> Perspetiva
+                  Inglesa (TBA) : Major-General Richard Allen, Director of British Army Legal Services </p>
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                <p class="my-0 text-dark flex-fw text-sm">
+                  <span class="text-inverse op-8"><strong>11:00</strong></span><strong>- COFFE BREAK </strong>
+                </p>
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column ">
+                <p class="my-0 text-dark flex-fw text-sm fundo-e-sombra-verde">
+                  <span class="text-inverse op-8"><strong>11:20</strong></span> - <strong>– Painel II: Os modelos de
+                    assessoria jurídica nas Forças Armadas Portuguesas </strong>
+                </p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde">Moderado pelo Coronel Tirocinado
+                  José Dias Lages, Subdiretor da Direção de Serviços de Pessoal</p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><strong>11:30</strong> A Assessoria
+                  Jurídica no Exército - Dr.ª Carla Sousa, do Departamento Jurídico e de Contencioso do GabCEME </p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><strong>11:50</strong> O modelo de
+                  Assessoria Jurídica na Marinha : Capitão de Mar e Guerra Luís Nicholson Lavrador, Departamento
+                  Jurídico da Marinha. </p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><strong>12:10</strong> – O modelo de
+                  Assessoria Jurídica na Força Aérea Portuguesa : Tenente-Coronel Jurista, Inês Sousa Luís, Departamento
+                  Jurídico da Força Aérea </p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><strong>12:30</strong> – Período de
+                  Debate </p>
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                <p class="my-0 text-dark flex-fw text-sm">
+                  <span class="text-inverse op-8"><strong>12:40</strong></span><strong>- ALMOÇO CONVÍVIO </strong>
+                </p>
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column ">
+                <p class="my-0 text-dark flex-fw text-sm fundo-e-sombra-verde">
+                  <span class="text-inverse op-8"><strong>14:00</strong></span> - <strong>Painel III: O futuro do modelo
+                    da assessoria jurídica do Exército</strong>
+                </p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"> Moderado pelo Dr. Luís Lourenço,
+                  Diretor do Departamento Jurídico e de Contencioso do GabCEME</p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><strong>14:10</strong> O modelo
+                  preconizado pelo EME e seu racional – Coronel Tirocinado Jorge Paulo Martins Henriques, Chefe da
+                  Divisão de Recursos do Estado-Maior do Exército.</em></p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><strong>14:30</strong>A estrutura de
+                  pessoal jurista do Exército: Evolução e Oportunidades – Dr.º Gabriel Barbosa Campos, Chefe da
+                  Assessoria Jurídica do Gabinete do Comandante de Pessoa</em></p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><strong>14:35</strong> A Formação do
+                  Quadro Especial de Juristas – Coronel Élio Teixeira dos Santos, Diretor de Ensino da Academia
+                  Militar</em></p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><strong>15:10</strong> As funções do
+                  Jurista – Dr.ª Sílvia Filipe Nogueira Corais, Jurista da Direção de Serviços de Pessoa</em></p>
+                <p class="my-0 flex-fw text-xs text-dark op-8 fundo-e-sombra-verde"><strong>15:30</strong> Período de
+                  Debate</em></p>
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                <p class="my-0 text-dark flex-fw text-sm">
+                  <span class="text-inverse op-8"><strong>15:40</strong></span><strong>- CONCLUSÕES DO SEMINÁRIO
+                  </strong>
+                </p>
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                <p class="my-0 text-dark flex-fw text-sm">
+                  <span class="text-inverse op-8"><strong>16:45</strong></span><strong>- SESSÃO DE ENCERRAMENTO
+                  </strong>
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </div>
   </section>
- 
+
+
+  <!-- 
+  <div class="container mb-5 mt-5 pt-1" style="font-family: 'Roboto', sans-serif;" id="transmissao">
+    <div class="row align-center">
+      <div class="col-12">
+        <h2 class="align-center pb-3 mbr-fonts-style display-2" style="color:  #8c6c26">TRANSMISSÃO</h2>
+      </div>
+    </div>
+
+    <div class="container mb-5 mt-3 " style="font-family: 'Roboto', sans-serif;" id="transmissao-video">
+      <div class="row align-center">
+        <div class="col-12">
+          <iframe style="width: 100%; aspect-ratio: 16/9;"
+            src="https://www.youtube.com/embed/3QOUAxqzDOg?si=-iayt36vdRPi9XMY" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div> 
+-->
+
+  <div class="row align-center mt-5">
+    <div class="col-12" align-center>
+      <a href="https://qr.sli.do/jAnPRt2T7m271N7kHwvNsY" target="_blank">
+        <img src="assets/images/02a-logo-exercito-cor2-png-174x121.png" width="150">
+        <br>
+        <a class="btn btn-md btn-primary" target="_blank" href="https://app.sli.do/event/jAnPRt2T7m271N7kHwvNsY"
+          role="button">Interação com Moderadores</a>
+      </a>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
 
   <section class="testimonials4 cid-tiDQYD2kvo" id="testimonials4-40">
     <div class="container">
-      <h2 class="pb-3 mbr-fonts-style mbr-white align-center display-2">
+      <h2 class="mbr-fonts-style mbr-white align-center display-2" style="color: #167e50;">
         ORADORES</h2>
-      <div class="col-md-10 testimonials-container">
+      <div class="col-md-12 testimonials-container">
         <div class="testimonials-item">
           <div class="user row">
             <div class="col-lg-3 col-md-4">
               <div class="user_image">
-                <img src="assets/images/portrait/Fotografia_TCor Afonso.jpg" alt="" title="">
+                <img src="assets/images/keynote.jpg" alt="" title="">
               </div>
             </div>
             <div class="testimonials-caption col-lg-9 col-md-8">
               <div class="user_text ">
                 <p class="mbr-fonts-style display-7">
-                  <strong>Tenente-Coronel Carlos Filipe Nunes Lobão Dias Afonso</strong>
-                  <br>Adjunto do Exército na Missão Militar junto da North Atlantic Treaty Organization, é também Autor
-                  e Coordenador do livro “Recrutamento no Exército Português: Do Condado Portucalense ao século XXI”
-                  <br><br>
-                  Está habilitado com os cursos curriculares de carreira e diversos outros cursos, sendo de destacar o
-                  Mestrado em Ciências Militares pela Academia Militar e o Curso de Estado-Maior ministrado no Instituto
-                  Estudos Superiores Militares. É doutor em História, área de especialização de História Medieval, pela
-                  Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa, investigador Integrado no
-                  Instituto de Estudos Medievais, sócio fundador da Associação Ibérica de História Militar e membro do
-                  Gabinete de Estudos sobre a Ordem de Santiago. Ao longo da sua carreira, desempenhou cargos em
-                  diversas Unidades, Estabelecimentos e Órgãos do Exército e no Estado-Maior-General das Forças Armadas,
-                  das quais se entende destacar os de Comandante de Pelotão e de Companhia no 2º Batalhão de Infantaria
-                  Mecanizado, o de Adjunto da 1.ª Companhia de Alunos da Academia Militar, de docente no Instituto
-                  Universitário Militar, de Oficial de Operações da Brigada Mecanizada e o de Comandante do Batalhão de
-                  Infantaria Mecanizado. Tomou parte em quatro forças nacionais destacadas, duas na Bósnia-Herzegovina,
-                  como Comandante de Pelotão e, posteriormente, como Comandante de Companhia de Atiradores; no Kosovo,
-                  como Oficial de Informações; e no Iraque, como Chefe da Secção de Planeamento de Treino, no escalão
-                  divisão, na Combined-Joint Task Force Operation Inherent Resolve. É docente de História Militar no
-                  Instituto Universitário Militar.
-                  <br><br>🕗 10:00<br>
-                  <strong>PAINEL I - PALESTRA I</strong><br>
-                  <strong>Serviço Militar no Exército até ao século XX&nbsp;</strong>
-                  <br><br>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="testimonials-item">
-
-          <div class="user row">
-            <div class="col-lg-3 col-md-4">
-              <div class="user_image">
-                <img src="assets/images/portrait/Foto TCor SWE.jpg" alt="" title="">
-              </div>
-            </div>
-            <div class="testimonials-caption col-lg-9 col-md-8">
-              <div class="user_text">
-                <p class="mbr-fonts-style display-7">
-                  <strong>Lieutenant Colonel Niklas Thornesjö</strong>
-                    <br>Deputy Director Force Production in the Swedish Army Command
-                    <br><br>
-                    O Tenente-Coronel Niklas Tornesjö tem uma licenciatura e um mestrado em Ciências Militares. Atualmente é o Diretor Adjunto de Produção de Forças do Exército Sueco no Comando do Exército Sueco. Iniciou a sua carreira como oficial nos Comandos Costeiros Suecos. Desempenhou vários cargos nos Comandos, nos Rangers e na estrutura de contrainformação. O Tenente-Coronel Niklas Tornesjö foi também Diretor da Escola Sueca de Destruição de Engenhos Explosivos e de Busca Militar, Chefe de Estado-Maior e Comandante Adjunto do Centro Sueco de Destruição de Engenhos Explosivos e Desminagem e Chefe das Operações Internacionais no Comando das Forças Conjuntas Suecas. Esteve colocado no CIED COE da NATO e foi destacado para várias missões internacionais, das quais se destacam as que participou no Teatro de Operações do Afeganistão.
-                    <br><br>🕗 10:30&nbsp;<br>
-                    <strong>PAINEL I - PALESTRA II</strong><br>
-                    <strong>Sweden's New Model Army</strong>
-                    <br><br>
-                  </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="testimonials-item">
-          <div class="user row">
-            <div class="col-lg-3 col-md-4">
-              <div class="user_image">
-                <img src="assets/images/portrait/Fotografia MGen V. Borges.jpg" alt="" title="">
-              </div>
-            </div>
-            <div class="testimonials-caption col-lg-9 col-md-8">
-              <div class="user_text">
-                <p class="mbr-fonts-style display-7">
-                  <br><strong>Major-General João Jorge Botelho Vieira Borges</strong>
-                  <br>Coordenador da SEDES para a área da Segurança e Defesa e Presidente da Comissão Portuguesa de
-                  História Militar
-                  <br><br>
-                  Está habilitado com os cursos curriculares de carreira e diversos outros cursos, sendo de destacar o
-                  Curso Aberto de Ciência Política pelo Instituto de Estudos Políticos da Universidade Católica
-                  Portuguesa, o Curso de Defesa Nacional pelo Instituto de Defesa Nacional, o Curso Terrorism and
-                  Security Studies pelo Marshall Center, e o Curso de Estado-Maior pelo Instituto de Altos Estudos
-                  Militares. Possui ainda o doutoramento em Ciências Sociais pela Universidade dos Açores, o mestrado em
-                  Estratégia pelo Instituto Superior de Ciências Sociais e Políticas da Universidade de Lisboa, e o
-                  Mestrado em Ciências Militares pela Academia Militar. Ao longo da sua carreira, desempenhou cargos em
-                  diversas Unidades, Estabelecimentos e Órgãos do Exército, no Estado-Maior-General das Forças Armadas,
-                  e no Ministério da Defesa Nacional, dos quais se entende destacar os cargos de instrutor na Academia
-                  Militar, na Escola Prática de Artilharia e no Centro de Instrução de Artilharia Antiaérea de Cascais,
-                  os de comandante do Regimento de Artilharia Antiaérea e da Academia Militar, os de professor da
-                  Academia Militar, do Instituto Universitário Militar e do ISCTE-Instituto Universitário de Lisboa, e
-                  ainda os de orientador de estudos no Instituto da Defesa Nacional, delegado de Artilharia Antiaérea na
-                  NATO, oficial do Estado-Maior e presidente do Conselho de Armas de Artilharia. É ainda de realçar a
-                  sua participação ativa na reforma do Ensino Superior Militar, na Comissão de Revisão do Conceito
-                  Estratégico de Defesa Nacional, nos Organismos de Comunicação Social como comentador em modelo de
-                  serviço público. É autor e coautor de diversas obras.
-                  <br><br>🕗 11:00&nbsp;<strong>
-                    <br>PAINEL I - PALESTRA III</strong><br>
-                  <strong>Uma visão sobre o futuro do Serviço Militar em Portugal</strong>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="testimonials-item">
-          <div class="user row">
-            <div class="col-lg-3 col-md-4">
-              <div class="user_image">
-                <img src="assets/images/portrait/Fotografia Prof. Salvador.png" alt="" title="">
-              </div>
-            </div>
-            <div class="testimonials-caption col-lg-9 col-md-8">
-              <div class="user_text">
-                <p class="mbr-fonts-style display-7">
-                  <br><strong>Professor Manuel Salvador Araújo</strong>
-                  <br>Instituto Politécnico do Porto
-                  <br><br>
-                  Licenciado, Mestre e Doutor em Psicologia pela Universidade do Minho e Executive Master em Liderança e
-                  Coaching Organizacional pela EADA Business School de Barcelona. Foi Diretor do Curso de Recursos
-                  Humanos do Politécnico do Porto, e atualmente ministra diversas Unidades Curriculares no mesmo
-                  instituto, nas áreas da Psicologia, Comunicação Interpessoal, Comportamento Organizacional, Liderança
-                  e Desenvolvimento de Equipas.
+                  <strong>KeyNote Speaker</strong>
+                  <br>Professor Catedrático José Fernandes Fontes Castelo Branco
+                  <br><br>José Fontes é Decano e Professor Catedrático de Ciências Jurídico-Políticas da Academia
+                  Militar e Professor Catedrático Convidado da Faculdade de Direito da Universidade Nova de Lisboa.
+                  Na Academia Militar, entre outras, desempenha as funções de Coordenador da Secção Disciplinar de
+                  Ciências Jurídicas do Departamento de Administração e Liderança.
                   <br>
-                  É investigador no Centro de Estudos Organizacionais e Sociais do Politécnico do Porto e membro da
-                  Applied Management Research Unite, sediado em Bragança, do Centro Científico Personas que Trabajan en
-                  Organizaciones, em Barcelona, e da Porto Executive Academy, no Politécnico do Porto.
-                  <br><br>🕗 14:45&nbsp;
-                  <strong><br>PAINEL II - PALESTRA I</strong>
-                  <br><strong>Principais desafios à liderança e comunicação - da geração Millenials à Alpha</strong>
-                </p>
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-        <div class="testimonials-item">
-          <div class="user row">
-            <div class="col-lg-3 col-md-4">
-              <div class="user_image">
-                <img src="assets/images/portrait/Fotografia CAlm L. Mendes.jpg" alt="" title="">
-              </div>
-            </div>
-            <div class="testimonials-caption col-lg-9 col-md-8">
-              <div class="user_text">
-                <p class="mbr-fonts-style display-7"><br><strong>Contra-almirante Luís Proença Mendes</strong>
-                  <br>Superintendente do Pessoal da Marinha
+                  Exerceu as funções de Secretário-Geral do Conselho Nacional de Avaliação do Ensino Superior, no âmbito
+                  do Ministério da Ciência, Tecnologia e do Ensino Superior, até à instituição da nova Agência de
+                  Avaliação e de Acreditação A3ES.
+                  Atualmente é Presidente da Direção do Instituto Dom João de Castro, associação privada de utilidade
+                  pública, que colabora com o Instituto dos Pupilos do Exército.
+                  Autor de diversos livros e artigos designadamente sobre Direito da Segurança, Direito Administrativo,
+                  Direito Constitucional e Direito Internacional.
+                  <br>
+                  Em 2014 foi eleito Académico de Número da Academia Internacional da Cultura Portuguesa onde foi
+                  Académico Correspondente desde 2011.
+                  Foi agraciado com a Medalha de Defesa Nacional – 1.ª Classe e com a Medalha de D. Afonso Henriques –
+                  Mérito do Exército – 2.ª Classe.
+                  <br><br>🕗 09:45<br>
+                  <strong><strong>KeyNote Speaker</strong></strong><br>
                   <br><br>
-                  Está habilitado com os cursos curriculares de carreira e diversos outros cursos, sendo de destacar o
-                  Curso Geral Naval de Guerra, no Instituto Superior Naval de Guerra. Ao longo da sua carreira
-                  desempenhou cargos em diversas Unidades, Estabelecimentos e Órgãos da Marinha e no
-                  Estado-Maior-General das Forças Armadas, dos quais se entende destacar: no Navio Escola "Sagres", como
-                  Chefe dos Serviços de Eletrotecnia e Artilharia e de Oficial de Relações Públicas. No cargo de
-                  Navegador do NRP "Álvares Cabral", participou no Operational Sea Training da Marinha Real Inglesa, em
-                  variados exercícios nacionais e internacionais, e na Operação Sharp Guard de bloqueio naval à costa da
-                  ex-Jugoslávia. Foi ainda Chefe do Gabinete de Estudos e Planeamento Direção de Faróis e Chefe da
-                  Divisão de Navegação no Instituto Hidrográfico. No âmbito dos trabalhos da Associação Internacional de
-                  Sinalização Marítima (AISM/IALA), desempenhou as funções de Vice-Chairman do Aids to Navigation
-                  Management Committee. Comandou o N.R.P. "Sagres" onde cumpriu mais de 650 dias de missão, percorrendo
-                  65.000 milhas em 10.000 horas de navegação. Durante o seu comando distingue-se uma viagem ao Atlântico
-                  Sul e Indico (6 meses) e uma volta-ao-mundo com passagem pelo Cabo Horn (11 meses). Assumiu o cargo de
-                  segundo-comandante da Flotilha em 2011 e de comandante da Base Naval de Lisboa, em 2015.
-                  Posteriormente foi nomeado chefe da Divisão de Pessoal do Estado-Maior da Armada e, posteriormente,
-                  chefe da nova Divisão de Inovação. Mais recentemente assumiu a chefia do Centro de Informações e
-                  Segurança Militares do Estado-Maior General das Forças Armadas e como Contra-almirante exerceu o cargo
-                  de Segundo Comandante do Comando Naval.
-                  <br><br>🕗 15:15&nbsp;<strong>
-                    <br>PAINEL II - PALESTRA II</strong>
-                  <br><strong>Quadro Permanente de Praças na Marinha</strong>
                 </p>
               </div>
             </div>
@@ -557,77 +434,385 @@
           <div class="user row">
             <div class="col-lg-3 col-md-4">
               <div class="user_image">
-                <img src="assets/images/portrait/Foto TGen Cabrerizo_v2.jpg" alt="" title="">
+                <img src="assets/images/EJERCITOTERRA.png" alt="" title="">
               </div>
             </div>
             <div class="testimonials-caption col-lg-9 col-md-8">
               <div class="user_text">
                 <p class="mbr-fonts-style display-7">
-                  <br><strong>Lieutenant General Antonio Jesús Cabrerizo Calatrava</strong>
-                  <br>Jefe del Mando de Personal del Ejército de Tierra
+                  <br><strong>Comandante Auditor CJM D. Daniel Rey Moral,</strong>
+                  <br>Ejercito de Tierra
                   <br><br>
-                  O Tenente-General Antonio Jesús Cabrerizo Calatrava é o Comandante do Pessoal do Exército, um dos nove comandos de primeiro nível que dependem diretamente do Chefe do Estado-Maior do Exército. O General Cabrerizo, para além do Curso de Estado-Maior das Forças Armadas, e outras formações no âmbito da Cooperação Civil-Militar, tem um mestrado em Segurança Internacional e Defesa, um mestrado em Pensamento Estratégico e Segurança Global e um mestrado em História Militar Espanhola. Concluiu ainda dois cursos na NATO School em Oberammergau, três cursos na Escola de Segurança da União Europeia em Bruxelas e os cursos de montanha de verão e inverno na Escola Militar de Montanha de Jaca. Esteve colocado durante 10 anos na Brigada da Legião: como Capitão foi Chefe da Companhia de Sapadores, como Comandante foi Chefe da Unidade de Sapadores da Legião e como Tenente-Coronel foi o primeiro Chefe e fundador da Banda de Sapadores da Legião. O seu último cargo como Tenente-Coronel integrou a Representação Militar de Espanha junto da União Europeia e da NATO, em Bruxelas. Como Brigadeiro-general, foi subdiretor da Educação do Exército. Como Major-General, foi Diretor de Investigação, Doutrina, Organização e Material e Diretor de Educação, Instrução, Formação e Avaliação. Participou em quatro missões internacionais: Bósnia 96, Kosovo 2000, Líbano 2007 e Afeganistão 2012.
-                  <br><br>🕗 15:45&nbsp;<strong><br>PAINEL II - PALESTRA III</strong>
-                  <br><strong>Experiencia com contratos de larga duración</strong>
+                  O Comandante Daniel Rey Moral ingressou no Corpo Jurídico Militar em 2010, consolidando uma carreira
+                  de excelência na área do Direito Militar. É Doutor em Direito Público (2021) e Mestre em Direito
+                  Marítimo Militar (2016), possuindo uma vasta experiência na assessoria jurídica em contextos
+                  operacionais e institucionais. Em reconhecimento ao seu mérito e competência profissional, foi
+                  distinguido, em 2023, com o Prémio Serge Lazareff, atribuído pelo Gabinete de Assuntos Jurídicos do
+                  Supreme Headquarters Allied Powers Europe (SHAPE) da NATO.
+                  <br>
+                  Atualmente, exerce funções como Assessor Jurídico no Quartel-General do Ejército de Tierra, tendo
+                  anteriormente desempenhado o mesmo cargo no Quartel-General da Armada (2016-2022) e no Quartel-General
+                  de Forças Ligeiras (2011-2015). A sua experiência internacional inclui missões de elevada relevância,
+                  nomeadamente a Operação Sea Guardian da NATO (2022), a Operação UNIFIL no Líbano (2019) e a EUNAVFOR
+                  MED Sophia (2017), nas quais atuou como Legal Adviser, prestando apoio jurídico em cenários
+                  operacionais complexos.
+                  <br>
+                  Além da sua trajetória profissional, possui uma significativa produção acadêmica no domínio do Direito
+                  Militar e do Direito Internacional, com diversas publicações que abordam questões essenciais da
+                  segurança e defesa, que refletem a sua expertise e contribuem para o avanço do pensamento jurídico na
+                  área da segurança marítima e das operações militares.
+                  <br><br>🕗 10:10&nbsp;<strong>
+                    <br>PAINEL I </strong><br>
+                  <strong>“Perspetiva Espanhola (TBA)”</strong>
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+        <div class="testimonials-item">
+          <div class="user row">
+            <div class="col-lg-3 col-md-4">
+              <div class="user_image">
+                <img src="assets/images/mgenbritish.png" alt="" title="">
+              </div>
+            </div>
+            <div class="testimonials-caption col-lg-9 col-md-8">
+              <div class="user_text">
+                <p class="mbr-fonts-style display-7">
+                  <br><strong>Major-General Richard Allen,</strong>
+                  <br>Director of British Army Legal Services
+                  <br><br>
+                  O Major-General Richard Allen estudou Direito na Universidade de Birmingham e concluiu os exames
+                  finais da Law Society no College of Law em York, sendo admitido em 1995. Exerceu advocacia durante
+                  três anos no Crown Prosecution Service em West Mercia.
+                  <br>
+                  Ingressou no Army Legal Services em 1998 e serviu em destacamento de infantaria com o Queen’s
+                  Lancashire Regiment na Irlanda do Norte. Posteriormente, foi transferido para a Army Prosecuting
+                  Authority na Alemanha, obtendo, em 2002, o direito de representação nos Tribunais Criminais
+                  Superiores. Após uma comissão na Diretoria de Serviços Jurídicos do Exército, foi destacado para o
+                  Kosovo, onde prestou assessoria acerca das operações internacionais e integrou o NATO Claims Tribunal
+                  na Antiga República Jugoslava da Macedónia.
+                  <br>
+                  Posteriormente, serviu na Operational Law Branch em Warminster, antes de ser destacado, em 2005, para
+                  o Iraque, onde trabalhou com o sistema judiciário no Tribunal Criminal Central em Bagdade, tendo
+                  participado nas operações em Basra.
+                  Após concluir o Intermediate Command and Staff Course (Land), integrou o estado-maior da 6.ª Divisão,
+                  com a qual foi destacado para Kandahar, no Afeganistão, antes de regressar à Alemanha como Comandante
+                  Jurídico do Quartel-General da 1.ª Divisão Blindada (Reino Unido).
+                  <br>
+                  Mais tarde, serviu no Permanent Joint Headquarters, com novas missões no Afeganistão, nas Ilhas
+                  Falkland e no Médio Oriente, antes de ser transferido para o Ministério da Defesa. Como Coronel,
+                  trabalhou no Quartel-General do Exército e, posteriormente, como Procurador-Geral na Service
+                  Prosecuting Authority. Foi promovido a Brigadeiro-General em 2020, quando assumiu o cargo de Head
+                  Legal Advisory, tornando-se Head Operational Law em 2023, antes de assumir a sua posição atual em
+                  2024.
+                  <br><br>🕗 10:30&nbsp;
+                  <strong><br>PAINEL I </strong>
+                  <br><strong>"Perspetiva Inglesa (TBA)”</strong>
+                </p>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-item">
+          <div class="user row">
+            <div class="col-lg-3 col-md-4">
+              <div class="user_image">
+                <img src="assets/images/carlasousa.jpg" alt="" title="">
+              </div>
+            </div>
+            <div class="testimonials-caption col-lg-9 col-md-8">
+              <div class="user_text">
+                <p class="mbr-fonts-style display-7">
+                  <strong>Dr.ª Carla Sousa</strong>
+                  <br>Departamento Jurídico e de Contencioso do GabCEME
+                  <br><br>
+                  A Técnica Superior Carla Guimarães de Sousa nasceu no Porto, tem 42 anos de idade e 18 anos de
+                  percurso profissional.
+                  Está habilitada com o grau de Mestre em Direito, atribuído pela Faculdade de Direito da Universidade
+                  de Lisboa. Da sua carreira realça-se a experiência militar,como Oficial do Exército, o desempenho de
+                  funções de assessoria jurídica no setor privado, e a especialização em Direito Administrativo e
+                  Administração Pública.
+                  <br>
+                  Atualmente desempenha o cargo de jurista no Departamento de Assessoria Jurídica e Contencioso do
+                  Gabinete do Chefe do Estado-Maior do Exército.
+                  <br><br>🕗 11:30&nbsp;<br>
+                  <strong>PAINEL II </strong><br>
+                  <strong>“A Assessoria Jurídica no Exército”</strong>
+                  <br><br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-item">
+          <div class="user row">
+            <div class="col-lg-3 col-md-4">
+              <div class="user_image">
+                <img src="assets/images/marinha.png" alt="" title="">
+              </div>
+            </div>
+            <div class="testimonials-caption col-lg-9 col-md-8">
+              <div class="user_text">
+                <p class="mbr-fonts-style display-7"><br><strong>Capitão de Mar e Guerra Luís Nicholson Lavrador,
+                  </strong>
+                  <br>Departamento Jurídico da Marinha
+                  <br><br>O Capitão de Mar e Guerra Luis Nicholson Lavrador nasceu em Lisboa em 1968 e ingressou na
+                  Escola Naval em 1986, concluindo a licenciatura em 1991. Especializou-se em Artilharia Naval e Oficial
+                  de Ação Tática, possuindo um vasto currículo académico e profissional, incluindo o Curso de Promoção a
+                  Oficial General, o Curso Geral Naval de Guerra e diversas formações no âmbito da NATO e da Política
+                  Comum de Segurança e Defesa da União Europeia. Paralelamente à sua carreira naval, licenciou-se em
+                  Direito pela Faculdade de Direito da Universidade de Lisboa.
+                  <br>
+                  No mar, comandou o NRP Açor e desempenhou funções em várias unidades, incluindo o NRP Sacadura Cabral
+                  e o NRP Alvares Cabral, onde integrou forças navais da NATO e da União Europeia. Em 2015, foi Chefe do
+                  Estado-Maior da Força Marítima Europeia (EUROMARFOR) e, entre 2022 e 2023, comandou a Força Naval
+                  Portuguesa, liderando operações no Golfo da Guiné e ao largo da costa ocidental de África. Em terra,
+                  exerceu cargos de relevo, como Diretor da Escola de Artilharia Naval, Chefe da Divisão de Informações
+                  do Estado-Maior do Comando Naval e Capitão do Porto de Setúbal. De 2006 a 2010 foi Ajudante-de-Campo
+                  do Presidente da República Entre 2019 e 2021, foi Chefe da Divisão de Relações Externas do
+                  Estado-Maior da Armada e, mais recentemente, entre 2023 e 2025, desempenhou funções como Chefe do
+                  Gabinete do Comandante Operacional das Forças Armadas.
+                  <br>
+                  Com uma carreira marcada pelo serviço em comandos nacionais e internacionais, assumiu, no passado dia
+                  07MAR, o cargo de Diretor Jurídico da Marinha. Ao longo da sua trajetória, recebeu várias
+                  condecorações, destacando-se o grau de Comendador da Ordem Militar de Avis, a Ordem do Mérito Civil de
+                  Espanha e a Medalha de Honra da Cidade de Setúbal, além de diversas Medalhas de Serviços Distintos.
+                  <br><br>🕗 11:50&nbsp;<strong>
+                    <br>PAINEL II </strong>
+                  <br><strong>“O modelo de Assessoria Jurídica na Marinha”</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-item">
+          <div class="user row">
+            <div class="col-lg-3 col-md-4">
+              <div class="user_image">
+                <img src="assets/images/FA.png" alt="" title="">
+              </div>
+            </div>
+            <div class="testimonials-caption col-lg-9 col-md-8">
+              <div class="user_text">
+                <p class="mbr-fonts-style display-7">
+                  <br><strong>Tenente-Coronel Jurista, Inês Sousa Luís</strong>
+                  <br>Departamento Jurídico da Força Aérea.
+                  <br><br>
+                  A Tenente-Coronel Jurista Inês Isabel Vicente Caetano de Sousa Luís licenciou-se em Direito pela
+                  Universidade de Lisboa (1998), complementando a sua formação com pós-graduações em Estudos Europeus
+                  (2002) e em Ciências Militares Aeronáuticas pelo Instituto de Estudos Superiores Militares (2015).
+                  Possui formação especializada em assessoria jurídica em contexto militar, incluindo o NATO Legal
+                  Advisor Course e o Law of the Armed Conflict, ministrado pelo International Institute of Humanitarian
+                  Law, entre outras qualificações de relevo.
+                  <br>
+                  Ao longo da sua carreira, desempenhou diversas funções de destaque na assessoria jurídica das Forças
+                  Armadas Portuguesas, nomeadamente como Assessora Jurídica na Assessoria Jurídica do Chefe do
+                  Estado-Maior da Força Aérea, no Comando da Zona Aérea dos Açores e no Comando de Pessoal da Força
+                  Aérea. Foi ainda Chefe da Secção de Justiça e Disciplina do Serviço de Justiça e Disciplina da Força
+                  Aérea, bem como Assessora Jurídica da Divisão de Recursos do Estado-Maior-General das Forças Armadas e
+                  Assessora do Ministério Público no Núcleo de Assessoria Militar do Departamento de Investigação e Ação
+                  Penal (DIAP) de Lisboa.
+                  <br>
+                  Atualmente, exerce funções como Chefe da Secção de Assuntos de Pessoal, Carreiras e Abonos do
+                  Departamento Jurídico da Força Aérea, onde continua a desempenhar um papel fundamental na assessoria
+                  jurídica e na gestão de questões estratégicas relacionadas com o pessoal militar. A sua sólida
+                  formação jurídica, aliada a uma vasta experiência no domínio do Direito Militar e da Justiça Militar,
+                  evidencia a sua competência e dedicação ao serviço das Forças Armadas Portuguesas.
+                  <br><br>🕗 12:10&nbsp;<strong><br>PAINEL II </strong>
+                  <br><strong>“O modelo de Assessoria Jurídica na Força Aérea Portuguesa”</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="testimonials-item">
+          <div class="user row">
+            <div class="col-lg-3 col-md-4">
+              <div class="user_image">
+                <img src="assets/images/cor_tir_gabceme.png" alt="" title="">
+              </div>
+            </div>
+            <div class="testimonials-caption col-lg-9 col-md-8">
+              <div class="user_text">
+                <p class="mbr-fonts-style display-7">
+                  <br><strong>Coronel Tirocinado Jorge Paulo Martins Henriques, </strong>
+                  <br>Chefe da Divisão de Recursos do Estado-Maior do Exército.
+                  <br><br>
+                  O Coronel Tirocinado Jorge Paulo Martins Henriques nasceu em Lisboa, tem 55 anos de idade e ingressou
+                  na Academia Militar em 1988, onde se licenciou em Ciências Militares, Arma de Cavalaria. Foi promovido
+                  ao atual posto em 20 de setembro de 2021. Está habilitado com diversos cursos de formação e
+                  qualificação, de que se destacam o Curso de Estado-Maior e o Curso de Promoção a Oficial General.
+                  No início da sua carreira, desempenhou funções de comando, de estado-maior e de docência no Regimento
+                  de Cavalaria N.º 4, na Escola Prática de Cavalaria e no Regimento de Lanceiros N.º 2. Na Academia
+                  Militar comandou duas companhias de cadetes.
+                  <br>
+                  Enquanto Oficial Superior, desempenhou funções de docência no Instituto de Estudos Superiores
+                  Militares e de assessoria na Direção-Geral de Política de Defesa Nacional e comandou o Grupo de
+                  Polícia do Exército e o Regimento de Cavalaria N.º 6. Desempenhou uma comissão de serviço no
+                  estrangeiro, durante 3 anos e meio, no Allied Rapid Reaction Corps, sediado no Reino Unido. Atualmente
+                  é o Chefe da Divisão de Recursos do Estado-Maior do Exército.
+                  Da sua folha de serviços constam 11 louvores, dos quais 1 concedido pelo Ministro da Defesa Nacional,
+                  2 concedidos pelo Chefe do Estado-Maior-General das Forças Armadas e 1 pelo Chefe do Estado-Maior do
+                  Exército. Possui diversas condecorações.
+                  <br><br>🕗 14:10&nbsp;<strong><br>PAINEL III</strong>
+                  <br><strong>“O modelo preconizado pelo EME e seu racional”</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials-item">
+          <div class="user row">
+            <div class="col-lg-3 col-md-4">
+              <div class="user_image">
+                <img src="assets/images/gabrielcampos.png" alt="" title="">
+              </div>
+            </div>
+            <div class="testimonials-caption col-lg-9 col-md-8">
+              <div class="user_text">
+                <p class="mbr-fonts-style display-7">
+                  <br><strong>Dr. º Gabriel Barbosa Campos </strong>
+                  <br>Chefe da Assessoria Jurídica do Gabinete do Comandante de Pessoal.
+                  <br><br>
+                  O Técnico Superior Gabriel Campos é licenciado em Direito pela Universidade Católica Portuguesa, e é
+                  Auditor do Curso de Defesa Nacional.
+                  É pós-graduado em Direito Internacional Humanitário e Direitos Humanos em situações de conflito e em
+                  Direito da Defesa Nacional, pelo Instituto Europeu da Faculdade de Direito de Lisboa em parceria com o
+                  Instituto de Defesa Nacional.
+                  <br>
+                  Prestou serviço militar como Oficial do Exército, com a especialidade de Licenciado em Direito, na
+                  Direção de Justiça e Disciplina, no Comando da Região Militar do Norte e no Comando do Pessoal.
+                  Posteriormente, desempenhou funções como Técnico Superior no Ministério do Trabalho e da Segurança
+                  Social.
+                  Desde de Outubro de 2010, desempenha o cargo de Chefe da Assessoria Jurídica do Tenente-General
+                  Comandante do Pessoal.
+                  <br><br>🕗 14:30&nbsp;<strong><br>PAINEL III</strong>
+                  <br><strong>“A estrutura de pessoal jurista do Exército: Evolução e Oportunidades ”</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-item">
+          <div class="user row">
+            <div class="col-lg-3 col-md-4">
+              <div class="user_image">
+                <img src="assets/images/cor_elio_santos.png" alt="" title="">
+              </div>
+            </div>
+            <div class="testimonials-caption col-lg-9 col-md-8">
+              <div class="user_text">
+                <p class="mbr-fonts-style display-7">
+                  <br><strong>Coronel Élio Teixeira dos Santos, </strong>
+                  <br>Diretor de Ensino da Academia Militar.
+                  <br><br>O Coronel Élio Santos terminou a Academia Militar em 1992, tendo sido colocado no Centro de
+                  Instrução de Artilharia Antiaérea de Cascais, onde desempenhou as funções de Comandante de Pelotão e
+                  Formador de Artilharia Antiaérea.
+                  <br>
+                  Em julho de 1997 foi colocado na Escola Prática de Artilharia, tendo aí desempenhado as funções de
+                  Comandante de Bateria, Chefe da Secção de Planeamento, Programação, Coordenação e Avaliação da Secção
+                  de Formação, Delegado Português do Arty Working Group da NATO Standardization Agency (NSA), e ainda
+                  Diretor de Curso e Formador do Curso de Promoção a Capitão e do Curso de Formação de Sargentos de
+                  Artilharia.
+                  <br>
+                  Em 1999 frequentou o curso Field Artillery Captain Career Course nos EUA e, entre junho de 2005 e
+                  jullho de 2006, comandou a Liaison and Observation Team (LOT) 3 da Multinacional Task Force North da
+                  EUFOR, na Bósnia-Herzgovina.
+                  Em setembro de 2009 foi colocado na Academia Militar, onde desempenhou as funções de Diretor de Curso
+                  e docente de Tática de Artilharia, Chefe do Departamento de Ciências Exatas e Engenharias e Adjunto do
+                  Diretor de Ensino.
+                  Desde janeiro de 2025 desempenha as funções de Diretor de Ensino da Academia Militar, em regime de
+                  suplência.
+                  <br><br>🕗 14:50&nbsp;<strong><br>PAINEL III</strong>
+                  <br><strong>“A Formação do Quadro Especial de Juristas”</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonials-item">
+            <div class="user row">
+              <div class="col-lg-3 col-md-4">
+                <div class="user_image">
+                  <img src="assets/images/dsp.png" alt="" title="">
+                </div>
+              </div>
+              <div class="testimonials-caption col-lg-9 col-md-8">
+                <div class="user_text">
+                  <p class="mbr-fonts-style display-7">
+                    <br><strong>Dr.ª Sílvia Filipe Nogueira Corais </strong>
+                    <br>Jurista da Direção de Serviços de Pessoal.
+                    <br><br>
+                    A Técnica Superior Sílvia Nogueira Corais é licenciada em Direito, pela Universidade Lusíada do
+                    Porto (2002), possui o Diploma de Estudos Avançados em Direito Mercantil (Grau de Investigador),
+                    pela Universidade de Vigo, e duas Pós-graduções. Uma em “Direito Internacional Humanitário e
+                    Direitos Humanos em situações de Conflito” e outra em “Direito da Defesa Nacional”, ambas pela
+                    Faculdade de Direito da Universidade de Lisboa.
+                    <br>
+                    Após ter concluído o curso de estágio de advocacia na Ordem dos Advogados, iniciou a sua vida
+                    laboral enquanto jurista na Administração Pública, através do “Programa de Estágios Profissionais na
+                    Administração Pública”, no Ministério das Finanças.
+                    Mais tarde, ingressou no Exército, na categoria de Oficial, em regime de contrato, tendo
+                    desempenhado funções na sua área de formação, no Comando da Zona Militar da Madeira e na extinta
+                    Direção de Justiça e Disciplina (2007/2013). Terminado o contrato com o Exército, iniciou funções
+                    como advogada na Sociedade de Advogados Plataforma Legal, no Banco Millennium BCP e na empresa
+                    Imaginew.
+                    <br>
+                    Em 2015, ingressou na Administração Pública, na carreira e categoria de Técnica Superior, tendo
+                    desempenhado funções de jurista na Autoridade Nacional de Proteção Civil.
+                    Atualmente, exerce o cargo de Assessora Jurídica do Diretor da Direção de Serviços de Pessoal.
+                    <br><br>🕗 15:10&nbsp;<strong><br>PAINEL III</strong>
+                    <br><strong>“As funções do Jurista”</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
   </section>
 
   <section class="testimonials4 cid-tiE2dWk6lF" id="testimonials4-41">
     <div class="container">
-      <h2 class="pb-3 mbr-fonts-style mbr-white align-center display-2">MODERADORES</h2>
-      <div class="col-md-10 testimonials-container">
+      <h2 class="mbr-fonts-style mbr-white align-center display-2" style="color: #167e50;">MODERADORES</h2>
+      <div class="col-md-12 testimonials-container">
         <div class="testimonials-item">
           <div class="user row">
             <div class="col-lg-3 col-md-4">
               <div class="user_image">
-                <img src="assets/images/portrait/Foto TGen CFT.jpeg" alt="" title="">
+                <img src="assets/images/cortirsantos.png" alt="" title="">
               </div>
             </div>
             <div class="testimonials-caption col-lg-9 col-md-8">
               <div class="user_text ">
                 <p class="mbr-fonts-style display-7">
-                  <strong>Tenente-General Rui Manuel da Silva Ferreira</strong>
-                  <br>Comandante das Forças Terrestres
+                  <strong>Coronel Tirocinado António Coelho dos Santos,</strong>
+                  <br>Subdiretor da Direção de Aquisições
                   <br><br>
-                  Está habilitado com os cursos curriculares de carreira e diversos outros cursos, sendo de destacar o
-                  Curso de Estado-Maior ministrado no Instituto de Altos Estudos Militares, o Armour Officer Advanced
-                  Course do Exército dos EUA, o NATO Crisis Management Course e o NATO Staff Officer Force Planning
-                  Course. Possui ainda uma Pós-Graduação em Relações Internacionais – “Estudos da Paz e da Guerra"
-                  (2001/02), pela Universidade Autónoma de Lisboa.
-                  <br><br>
-                  Ao longo da sua carreira, desempenhou cargos em diversas Unidades, Estabelecimentos e Órgãos do
-                  Exército, no Estado-Maior-General das Forças Armadas, no Ministério da Defesa Nacional e no
-                  estrangeiro, dos quais se entende destacar:
-                  <br><br>
-                  No âmbito do comando, direção e chefia, o cargo de Comandante do Grupo de Carros de Combate,
-                  Comandante do Regimento de Cavalaria N.º 6, Chefe da Repartição de Planeamento Estratégico no
-                  Estado-Maior do Exército, Diretor do Curso de Estado-Maior Conjunto no Instituto Universitário
-                  Militar, 2º Comandante da Escola das Armas e Chefe da Divisão de Planeamento Estratégico do
-                  Estado-Maior-General das Forças Armadas.
-                  <br><br>
-                  De Assessoria e Estado-Maior, o cargo de Oficial de Operações da Brigada Mecanizada, assessor no
-                  Gabinete do Ministro da Defesa Nacional, assessor para as Relações Externas de Defesa no Estado-Maior
-                  Militar da União Europeia/Bruxelas, Chefe do Estado-Maior do Comando das Forças Terrestres e Chefe dos
-                  Gabinetes do General Chefe do Estado-Maior do Exército e do General Chefe do Estado-Maior-General das
-                  Forças Armadas.
-                  <br><br>
-                  Ao nível do ensino e formação, as funções de Diretor do Tirocínio para Oficiais de Cavalaria e
-                  instrutor de Tática de Cavalaria na Escola Prática de Cavalaria, instrutor de Tática de Cavalaria na
-                  Academia Militar e professor de Estratégia e de Geopolítica no Instituto de Altos Estudos Militares.
-                  <br><br>
-                  Da sua experiência profissional faz parte ainda a participação, em 1993/94, na Missão de Observadores
-                  Militares no conflito da Ex-Jugoslávia, a participação em 2005 na Missão de Treino da NATO no Iraque e
-                  foi Comandante da Força Nacional Destacada para o Teatro de Operações da Bósnia-Herzegovina, durante o
-                  1º semestre de 2006, integrando a “Operação ALTHEA" da União Europeia.
-                  <br><br>🕗 11:45
+                  Possui o Legal Advisor Course ministrado na NATO School em Oberammergau (Alemanha), o Curso
+                  Internacional Militar sobre o Direito dos Conflitos Armados ministrado no Instituto Internacional de
+                  Direito Humanitário em San Remo (Itália), o Curso de Direito Internacional dos Conflitos Armados da
+                  Escola Superior de Guerra em Brasília (Brasil) e o Curso de Defesa Nacional. Possui também a
+                  Licenciatura em Direito pela Universidade Lusófona do Porto e o Doutoramento em Direito pela
+                  Universidade de Santiago de Compostela (Espanha).
+                  <br>
+                  Desempenhou em acumulação as funções de Assessor Militar no Departamento de Investigação e Ação Penal
+                  do Porto e no Tribunal Central Administrativo Norte.
+                  Foi representante das Forças Armadas Portuguesas no VIII Seminar for Legal Advisors to the Armed
+                  Forces que decorreu em Riga, Letónia, representante do Exército Português na Conferência “NATO Legal
+                  Training” na NATO School e Delegado do Exército ao Expert Task Group 2 da FINABEL com o tema
+                  “Legalization within the Framework of external military operation”.
+
+                  <br><br>🕗 10:00
                   <br><strong>DEBATE - PAINEL I</strong>
-                  <br>Uma perspetiva sobre a evolução do serviço militar
+                  <br>"O papel do Legal Advisor em Operações Militares"
                 </p>
               </div>
             </div>
@@ -637,50 +822,86 @@
           <div class="user row">
             <div class="col-lg-3 col-md-4">
               <div class="user_image">
-                <img src="assets/images/portrait/Foto MGen Rijo.jpg" alt="" title="">
+                <img src="assets/images/cortirlages.png" alt="" title="">
               </div>
             </div>
             <div class="testimonials-caption col-lg-9 col-md-8">
               <div class="user_text ">
                 <p class="mbr-fonts-style display-7">
-                  <strong>Major-General Francisco José Fonseca Rijo</strong>
-                  <br>Diretor da Administração de Recursos Humanos
-                  <br><br>
-                  Está habilitado com os cursos curriculares de carreira e diversos outros cursos, sendo de destacar o
-                  Curso de Estado-Maior ministrado no Instituto de Altos Estudos Militares e o Curso Geral de Comando e
-                  Estado-Maior do Exército dos Estados Unidos da América. Possui ainda uma Pós-Graduação em Ciências da
-                  Educação pela Faculdade de Psicologia e Ciências da Educação da Universidade de Lisboa.
-                  <br><br>
-                  Ao longo da sua carreira, desempenhou cargos em diversas Unidades, Estabelecimentos e Órgãos do
-                  Exército, no Estado-Maior-General das Forças Armadas, no Ministério da Administração Interna e no
-                  estrangeiro, dos quais se entende destacar:
-                  <br><br>
-                  No âmbito do comando, direção e chefia, o cargo de 2º Comandante da Escola Prática de Infantaria,
-                  Comandante do Regimento de Infantaria N.º 14, 2º Comandante da Escola das Armas, Comandante da Unidade
-                  de Intervenção da Guarda Nacional Republicana e, em acumulação, Comandante da Escola da Guarda.
-                  <br><br>
-                  De Assessoria e Estado-Maior, o cargo de Chefe da Secção de Estudos da Direção de Formação do Comando
-                  de Instrução e Doutrina, o desempenho de funções na Direção de Operações e Exercícios do Estado-Maior
-                  da União Europeia, assim como os cargos de Adjunto Militar para o Exército Gabinete do General Chefe
-                  do Estado-Maior-General das Forças Armadas, Chefe de Gabinete do Comandante da Academia Militar e
-                  Adjunto do 2º Comandante do Joint Command Lisbon.
-                  <br><br>
-                  Ao nível do ensino e formação, no Instituto de Altos Estudos Militares foi professor nas áreas da
-                  Logística, Técnica de Estado-Maior, Informação Pública e Gestão da Formação, tendo ainda exercido as
-                  funções de Coordenador da Área de Ensino Específico do Exército e de Oficial de Ligação ao Exército no
-                  Instituto Universitário Militar.
-                  <br><br>
-                  Da sua experiência profissional faz parte ainda a participação, no 7º Contingente Nacional da ISAF, no
-                  Afeganistão, como Senior Advisor da Military Advisory Team.
-                  <br><br>🕗 16:30
-                  <br><strong>DEBATE -&nbsp;PAINEL II</strong>
-                  <br>A retenção nas Forças Armadas
+                  <strong>Coronel Tirocinado José Dias Lages</strong>
+                  <br>Subdiretor da Direção de Serviços de Pessoal
+                  <br><br>O Coronel Tirocinado de Infantaria José Dias Lages possui uma formação militar distinta,
+                  estando habilitado com os cursos curriculares de carreira, e ainda o curso de Estado-Maior do
+                  Instituto de Altos Estudos Militares e o Curso de Promoção a Oficial-General do Instituto
+                  Universitário Militar. Possui ainda outros cursos e estágios militares, de que se destacam, os Cursos
+                  de Operações Especiais e o Curso de Defesa Nacional.
+                  <br>
+                  Ao longo da carreira, desempenhou diversas funções de Comando e Estado-Maior, começando no Regimento
+                  de Infantaria do Porto e passando por várias Unidades, incluindo o Centro de Instrução de Operações
+                  Especiais, o Estado-Maior do Exército e o Quartel-General da Região Militar do Norte.
+                  <br>
+                  Da sua notável folha de serviços, destacam-se a sua participação como Oficial de Operações no Teatro
+                  de Operações do Kosovo, o Comando da Unidade de Apoio do Comando de Pessoal, na cidade do Porto e o
+                  Comando do Regimento de Infantaria n.º 13 em Vila Real, assim como os cargos de chefia que desempenhou
+                  na Direção de Administração de Recursos Humanos e no Comando de Pessoal. Atualmente é o Subdiretor da
+                  Direção de Serviços de Pessoal.
+
+                  <br><br>🕗 11:20
+                  <br><strong>DEBATE - PAINEL II</strong>
+                  <br>"Os modelos de assessoria jurídica nas Forças Armadas Portuguesas"
                 </p>
               </div>
             </div>
           </div>
+          <div class="testimonials-item">
+            <div class="user row">
+              <div class="col-lg-3 col-md-4">
+                <div class="user_image">
+                  <img src="assets/images/dr_lourenco.png" alt="" title="">
+                </div>
+              </div>
+              <div class="testimonials-caption col-lg-9 col-md-8">
+                <div class="user_text ">
+                  <p class="mbr-fonts-style display-7">
+                    <strong>Dr. Luís Lourenço </strong>
+                    <br>Diretor do Departamento Jurídico e de Contencioso do GabCEME
+                    <br><br>Licenciado em Direito, pela Faculdade de Direito da Universidade de Lisboa (1986). Mestrado
+                    em
+                    Direito (parte escolar), pela Faculdade de Direito da Universidade de Lisboa. Pós-graduado em
+                    Direito
+                    da Comunicação, pela Faculdade de Direito da Universidade de Coimbra. Pós-graduado em Direito
+                    Europeu,
+                    pela Faculdade de Direito da Universidade Lusíada de Lisboa.
+                    <br>
+                    Após a conclusão do estágio de advocacia, foi incorporado no Exército, em 22 de agosto de 1988, a
+                    fim
+                    de cumprir o serviço militar obrigatório, tendo estado colocado, como oficial, no Estado-Maior do
+                    Exército e no Gabinete do Chefe do Estado-Maior do Exército. Ingressou no quadro de pessoal civil do
+                    Exército em 9 de julho de 1997, tendo sido colocado no Gabinete do Chefe do Estado-Maior do
+                    Exército.
+                    Desempenhou as funções de Chefe da Secção de Assuntos Jurídicos do Gabinete do Chefe do Estado-Maior
+                    do Exército, de Chefe da Assessoria Jurídica do mesmo Gabinete, e, desde 1 de agosto de 2015, as de
+                    Diretor do Departamento de Assessoria Jurídica e Contencioso. É, em acumulação de funções, o
+                    assessor
+                    jurídico pessoal do General Chefe do Estado-Maior do Exército, desde 1 de outubro de 2003.
+                    <br>
+                    Participou em várias conferências e integrou diversos grupos de trabalho, no país e no estrangeiro,
+                    designadamente o grupo de trabalho que elaborou o projeto do atual Regulamento de Disciplina
+                    Militar.
+
+                    <br><br>🕗 14:00
+                    <br><strong>DEBATE - PAINEL III</strong>
+                    <br>"O futuro do modelo da assessoria jurídica do Exército"
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -762,7 +983,7 @@
       <div class="media-container-row align-center mbr-white">
         <div class="col-12">
           <p class="mbr-text mb-0 mbr-fonts-style display-7">
-            © Copyright 2024 Exército Português - Comando do Pessoal </p>
+            © Copyright 2025 Exército Português - Comando do Pessoal </p>
         </div>
       </div>
     </div>
@@ -777,7 +998,6 @@
     <p style="display: none; text-align: center;" class="display-7">&#8204;</p>
     <a style="display: none;" href="https://mobirise.com/builder/ai-website-creator.html">Best AI Website Creator</a>
   </section>
-  
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>

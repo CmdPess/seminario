@@ -375,15 +375,31 @@
       </div> 
 -->
       <br>
-  <div style="text-align: center;">
-    <a href="https://qr.sli.do/jAnPRt2T7m271N7kHwvNsY" target="_blank">
-      <img src="assets/images/02a-logo-exercito-cor2-png-174x121.png" width="150">
-      <br>
-      <a class="btn btn-md btn-primary" target="_blank" href="https://app.sli.do/event/jAnPRt2T7m271N7kHwvNsY"
-        role="button" style="font-family: Arial, sans-serif;">
-        Interação com Moderadores
-      </a>
-  </div>
+      <div id="eventoInicio" style="text-align: center; display: none;">
+        <a href="" target="_blank">
+            <img src="assets/images/02a-logo-exercito-cor2-png-174x121.png" width="150">
+        </a>
+        <br>
+        <a class="btn btn-md btn-primary" target="_blank" href=""
+            role="button" style="font-family: Arial, sans-serif;">
+            Interação com Moderadores
+        </a>
+    </div>
+    
+    <script>
+        // Definir o horário do início e fim do evento (Horário de Lisboa - UTC)
+        var inicioEvento = new Date("2025-03-11T09:30:00Z"); // 9:30 UTC
+        var fimEvento = new Date("2025-03-11T23:59:00Z"); // Ajuste para definir a duração do início
+    
+        var agora = new Date();
+    
+        // Verifica se está dentro do período de exibição
+        if (agora >= inicioEvento && agora <= fimEvento) {
+            document.getElementById("eventoInicio").style.display = "block";
+        }
+    </script>
+    
+    
 
   </div>
   </div>
